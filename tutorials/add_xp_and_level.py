@@ -3,12 +3,16 @@ import leveling
 
 @client.event
 async def on_message(message):
-    lvlmember = message.author.id
-    leveling.addxp(lvlmember,"1")
-    Level = leveling.getlvl(lvlmember)
-    if int(leveling.getxp(lvlmember)) > 10:
-        leveling.addlvl(lvlmember,"1")
+    try:
+        lvlmember = message.author.id
+        leveling.addxp(lvlmember,"1")
         Level = leveling.getlvl(lvlmember)
-        await message.channel.send(f"{message.author.mention} Ranked up to Level {Level}")
-    
+        rank1 = leveling.getxp(lvlmember)
+        if rank1 > 10:
+            leveling.addlvl(lvlmember,"1")
+            Level = leveling.getlvl(lvlmember)
+            leveling.resetxp(lvlmember)
+            await message.channel.send(f"{message.author.mention} Ranked up to Level {Level}")
+    except:
+        pass
     await client.process_commands(message)
