@@ -14,3 +14,6 @@ level = leveling.getlvl(user_id)
 
 #get XP
 xp = leveling.getxp(user_id)
+
+#reset xp
+leveling.resetxp(user_id)
