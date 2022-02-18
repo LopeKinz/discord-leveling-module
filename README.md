@@ -15,8 +15,9 @@
 <p>If Issues accur create a Ticket at the Issues tab!</p>
 <p style="margin-top: 15px;"><a href="https://github.com/LopeKinz/discord-leveling-module/issues" title="">Issues Tab</a></p>
 
-<h4>Usage</h4>
+<h3>Usage</h3>
 
+<p style="margin-top: 15px;"><a href="https://github.com/LopeKinz/discord-leveling-module/tree/main/tutorials" title="">Show Tutorials</a></p>
 
 
 <img  src="https://mk0droplrg5q83m5xg0r.kinstacdn.com/wp-content/uploads/2020/08/Discord-level-up-1200x400.png"/>
