@@ -3,7 +3,7 @@
 <h2 style="color: blue;">Simple and Easy to use!</h2>
 
 <h3>Installation</h3>
-
+<p> Download ZIP of Repo </p>
 <p>1. Create a folder with the name "data".</p>
 <p>2. Create two json files named "level.json" and "xp.json" and put them into the data folder.</p>
 <p>3. Create a folder named "modules" and put the "leveling.py" in there!</p>
