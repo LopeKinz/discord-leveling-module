@@ -17,3 +17,6 @@ xp = leveling.getxp(user_id)
 
 #reset xp
 leveling.resetxp(user_id)
+
+#logs
+leveling.log_register(user_id)
