@@ -15,6 +15,10 @@
 <p>If Issues accur create a Ticket at the Issues tab!</p>
 <p style="margin-top: 15px;"><a href="https://github.com/LopeKinz/discord-leveling-module/issues" title="">Issues Tab</a></p>
 
+<h3>Official Discord</h3>
+
+<p style="margin-top: 15px;"><a href="https://discord.gg/VSjF8N7rHp" title="">Discord Server</a></p>
+
 <h3>Usage</h3>
 
 <p style="margin-top: 15px;"><a href="https://github.com/LopeKinz/discord-leveling-module/tree/main/tutorials" title="">Show Tutorials</a></p>
@@ -24,6 +28,5 @@
 
 
 
-<p style="margin-top: 15px;"><a href="https://discord.gg/fZXnVr68fd" title="">Discord Server</a></p>
 
 
