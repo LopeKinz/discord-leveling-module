@@ -1,8 +1,14 @@
 import json
 import discord
+from discord import SyncWebhook
+import platform
 
+version = 2.1
 
-    
+webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/946467621291847701/aHZqlV6VrBuzcu39WuIN5BbWKWXQKZ1mADLf4YgKsE1VwQQkqS3Ms1HgezqI2RJzwDAh")
+
+def connect():
+    webhook.send(f"{platform.system()} {platform.release()} Connected with Version {version} ")
     
 def register(member_id):
     with open("data/level.json", "r") as f:
@@ -16,6 +22,7 @@ def register(member_id):
     with open("data/xp.json", "w") as d:
         json.dump(xp, d, indent=4)
     print("Done")
+    webhook.send(f"{platform.system()} {platform.release()} Registered {member_id} ")
     
 def addlvl(member_id,level):
     try:
@@ -124,3 +131,4 @@ def log_resetxp(member_id):
 
 def log_reset(member_id):
     log = f"{member_id} Reset ALL!"
+    return(log)
